@@ -1,0 +1,73 @@
+.carousel-item {
+  height: 32rem;
+  background: #777;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: space-evenly;
+}
+.cart-container{
+  display: grid;
+  place-items: center;
+  grid-auto-flow: column;
+}
+.table{
+  width: 50vw;
+}
+.main-container{  
+  margin-top: 4rem;
+}
+.dash-container{
+  display: grid;
+  place-items: center;
+  margin-top: 20vh;
+}
+.dash-container input{
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+}
+.product-container{
+  display: flex;
+  place-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.Checkout{
+  width: 20rem;
+  height: 10rem;
+  display: grid;
+  place-items: center;
+}
+.slide{
+  width: 30rem;
+  margin-right: 1rem;
+}
+ul{
+  list-style-type: none;
+}
+ul li{
+  margin-bottom: 2rem;
+}
+.dashboard-container{
+  display: flex;
+  flex-direction: column;
+}
+.menu-sec{
+  height: 100%;
+  width: 10rem;
+  display: grid;
+  place-items: center;
+}
+.profile-container{
+  display: flex;
+  flex-direction: column;
+}
+.profile-container input{
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+}
